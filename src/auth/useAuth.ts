@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-const ADMIN_USERNAME = 'admin';
-const ADMIN_PASSWORD = 'admin123'; // In a real app, this should be properly secured
+const ADMIN_USERNAME = 'A9r9k9l9i9ne9studio';
+const ADMIN_PASSWORD = 'Ark_line$tudio_0009'; // In a real app, this should be properly secured
 const AUTH_KEY = 'isAdminAuthenticated';
 
 export const useAuth = () => {
