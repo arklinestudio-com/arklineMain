@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Facebook, Linkedin, Heart } from 'lucide-react';
+import { Instagram, Facebook, Linkedin, Heart, Send } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin className="h-5 w-5" />
-               <a
+                <a
                     href="https://pin.it/7I31yJ2N5"
                     className="p-2 bg-gray-100 rounded-sm hover:bg-amber-100 hover:text-amber-600 transition-colors duration-200"
                     aria-label="Pinterest"
