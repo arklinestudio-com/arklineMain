@@ -1,6 +1,5 @@
 import React from 'react';
 import { Instagram, Facebook, Linkedin, Heart } from 'lucide-react';
-import { SiPinterest } from 'react-icons/si'; // <- Add this line
 
 const Footer: React.FC = () => {
   return (
@@ -23,9 +22,9 @@ const Footer: React.FC = () => {
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="https://pin.it/7I31yJ2N5" className="text-gray-400 hover:text-white transition-colors">
+{/*               <a href="https://pin.it/7I31yJ2N5" className="text-gray-400 hover:text-white transition-colors">
                 <SiPinterest className="h-5 w-5" />
-              </a>
+              </a> */}
             </div>
           </div>
 
