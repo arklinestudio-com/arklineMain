@@ -59,9 +59,9 @@ const Header: React.FC = () => {
               <Phone className="h-4 w-4 mr-1" />
               +91 98765 43210
             </a>
-            <a href="mailto:contact@arklinestudio.com" className="flex items-center text-sm text-gray-600 hover:text-amber-600">
+            <a href="mailto:arklinestudio9@gmail.com" className="flex items-center text-sm text-gray-600 hover:text-amber-600">
               <Mail className="h-4 w-4 mr-1" />
-              contact@arklinestudio.com
+              arklinestudio9@gmail.com
             </a>
           </div>
 
