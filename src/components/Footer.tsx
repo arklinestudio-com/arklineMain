@@ -1,5 +1,6 @@
 import React from 'react';
 import { Instagram, Facebook, Linkedin, Heart } from 'lucide-react';
+import { SiPinterest } from 'react-icons/si'; // <- Add this line
 
 const Footer: React.FC = () => {
   return (
@@ -13,14 +14,17 @@ const Footer: React.FC = () => {
               Creating beautiful, functional spaces that enhance your daily life. Every design tells a story, and I'm here to help you tell yours.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/arkline_studio_/" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.facebook.com/share/16gLJ3b7eW/" className="text-gray-400 hover:text-white transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin className="h-5 w-5" />
+              </a>
+              <a href="https://pin.it/7I31yJ2N5" className="text-gray-400 hover:text-white transition-colors">
+                <Pinterest className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -41,8 +45,8 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-medium mb-4">Contact</h4>
             <ul className="space-y-2">
-              <li className="text-gray-400">+91 98765 43210</li>
-              <li><a href="mailto:contact@arklinestudio.com" className="text-gray-400 hover:text-white transition-colors">contact@arklinestudio.com</a></li>
+              <li className="text-gray-400">+91 87588 64911</li>
+              <li><a href="mailto:arklinestudio9@gmail.com" className="text-gray-400 hover:text-white transition-colors">arklinestudio9@gmail.com</a></li>
               <li className="text-gray-400">
                 Sanala Road<br />
                 Morbi-363641<br />
