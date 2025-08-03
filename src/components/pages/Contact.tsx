@@ -168,14 +168,14 @@ const Contact: React.FC = () => {
                   <div>
                     <h3 className="font-medium text-gray-900 mb-1">Phone</h3>
                     <p className="text-gray-600">
-                      <a href="tel:+919876543210" className="hover:text-amber-600 transition-colors">
-                        +91 98765 43210
+                      <a href="tel:+91 87588 64911" className="hover:text-amber-600 transition-colors">
+                        +91 87588 64911
                       </a><br />
-                      <a href="tel:+919876543210" className="hover:text-amber-600 transition-colors">
-                        +91 98765 43210
+                      <a href="tel:+91 91065 58971" className="hover:text-amber-600 transition-colors">
+                        +91 91065 58971
                       </a><br />  
-                      <a href="tel:+919876543210" className="hover:text-amber-600 transition-colors">
-                        +91 98765 43210
+                      <a href="tel:+91 99130 88289" className="hover:text-amber-600 transition-colors">
+                        +91 99130 88289
                       </a>
                     </p>
                   </div>
@@ -186,8 +186,8 @@ const Contact: React.FC = () => {
                   <div>
                     <h3 className="font-medium text-gray-900 mb-1">Email</h3>
                     <p className="text-gray-600">
-                      <a href="mailto:contact@arklinestudio.com" className="hover:text-amber-600 transition-colors">
-                        contact@arklinestudio.com
+                      <a href="mailto:arklinestudio9@gmail.com" className="hover:text-amber-600 transition-colors">
+                        arklinestudio9@gmail.com
                       </a>
                     </p>
                   </div>
@@ -211,13 +211,13 @@ const Contact: React.FC = () => {
                 <h3 className="font-medium text-gray-900 mb-4">Follow My Work</h3>
                 <div className="flex space-x-4">
                   <a
-                    href="#"
+                    href="https://www.instagram.com/arkline_studio_/"
                     className="p-2 bg-gray-100 rounded-sm hover:bg-amber-100 hover:text-amber-600 transition-colors duration-200"
                   >
                     <Instagram className="h-5 w-5" />
                   </a>
                   <a
-                    href="#"
+                    href="https://www.facebook.com/share/16gLJ3b7eW/"
                     className="p-2 bg-gray-100 rounded-sm hover:bg-amber-100 hover:text-amber-600 transition-colors duration-200"
                   >
                     <Facebook className="h-5 w-5" />
@@ -229,7 +229,7 @@ const Contact: React.FC = () => {
                     <Linkedin className="h-5 w-5" />
                   </a>
                   <a
-                    href="#"
+                    href="https://pin.it/7I31yJ2N5"
                     className="p-2 bg-gray-100 rounded-sm hover:bg-amber-100 hover:text-amber-600 transition-colors duration-200"
                     aria-label="Pinterest"
                   >
