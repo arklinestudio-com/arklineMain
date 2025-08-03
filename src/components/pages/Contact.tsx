@@ -39,7 +39,7 @@ const Contact: React.FC = () => {
                   - message
                 */}
 
-                <input type="hidden" name="access_key" value="fc360dbe-637e-48d6-a82c-93ca9afbf5a1" />
+                <input type="hidden" name="access_key" value="cae7159d-8e8a-4d8f-94d7-4e420830fd2c" />
                 
                 {/* Success and error messages are handled by formsubmit.co's redirect or response page. */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -131,7 +131,7 @@ const Contact: React.FC = () => {
                     className="w-full px-4 py-3 border border-gray-300 rounded-sm focus:ring-2 focus:ring-amber-500 focus:border-transparent"
                   />
                 </div>
-                <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+               <input type="hidden" name="redirect" value="https://atul-web-alpha.vercel.app/contact-success" />
                 <button
                   type="submit"
                   className="w-full bg-amber-600 text-white py-3 px-6 rounded-sm hover:bg-amber-700 transition-colors duration-200 flex items-center justify-center font-medium"
