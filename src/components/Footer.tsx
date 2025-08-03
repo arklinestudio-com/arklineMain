@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a href="https://pin.it/7I31yJ2N5" className="text-gray-400 hover:text-white transition-colors">
-                <Pinterest className="h-5 w-5" />
+                <SiPinterest className="h-5 w-5" />
               </a>
             </div>
           </div>
