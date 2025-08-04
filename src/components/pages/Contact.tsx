@@ -223,7 +223,7 @@ const Contact: React.FC = () => {
                     <Facebook className="h-5 w-5" />
                   </a>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/company/arkline-studio"
                     className="p-2 bg-gray-100 rounded-sm hover:bg-amber-100 hover:text-amber-600 transition-colors duration-200"
                   >
                     <Linkedin className="h-5 w-5" />
