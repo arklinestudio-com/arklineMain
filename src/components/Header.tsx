@@ -33,24 +33,24 @@ const Header: React.FC = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* ✅ Wrap everything inside flex */}
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center py-6">
           {/* Logo + Title */}
-          <div className="flex items-center gap-12">
-            <img
-              src="/Arkline.png"
-              alt="Arkline Studio Logo"
-              className="h-6 w-6 object-contain scale-[4.0]"
-            />
-            <h1
-              className="text-3xl not-italic text-gray-900"
-              style={{
-                fontFamily: '"Cairo Play", sans-serif',
-              
-              }}
-            >
-              Arkline Studio
-            </h1>
-          </div>
+        <div className="flex items-center gap-6">
+  <img
+    src="/Arkline.png"
+    alt="Arkline Studio Logo"
+   className="h-8 w-[6rem] object-contain scale-[2.0] ml-4"
+  />
+  <h1
+    className="text-3xl not-italic text-gray-900"
+    style={{
+      fontFamily: '"Cairo Play", sans-serif',
+    }}
+  >
+    Arkline Studio
+  </h1>
+</div>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
