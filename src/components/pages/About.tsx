@@ -31,7 +31,7 @@ const About: React.FC = () => {
                 To become the most trusted and innovative architectural design studio globally, recognized for transforming spaces that enhance human potential and create lasting value for communities, while setting new standards for sustainable and intelligent design.
               </p>
             </div>
-{/*     <div className="w-full max-w-[800px] h-[600px] mx-auto">
+    <div className="w-full max-w-[800px] h-[600px] mx-auto">
   <video
     autoPlay
     muted
@@ -43,7 +43,7 @@ const About: React.FC = () => {
 
     Your browser does not support the video tag.
   </video>
-</div> */}
+</div>
 
           </div>
         </div>
