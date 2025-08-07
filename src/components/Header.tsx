@@ -37,7 +37,7 @@ const Header: React.FC = () => {
           {/* Logo + Title */}
         <div className="flex items-center gap-6">
   <img
-  src="/Arkline.png"
+  src="/Logo.svg"
   alt="Arkline Studio Logo"
   className="h-8 w-[6rem] object-contain scale-[2.0] ml-4"
 />
