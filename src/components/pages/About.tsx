@@ -31,13 +31,19 @@ const About: React.FC = () => {
                 To become the most trusted and innovative architectural design studio globally, recognized for transforming spaces that enhance human potential and create lasting value for communities, while setting new standards for sustainable and intelligent design.
               </p>
             </div>
-            <div className="relative">
-              <img
-                src="https://images.pexels.com/photos/5691606/pexels-photo-5691606.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
-                alt="Atul Parmar - Interior Designer"
-                className="rounded-sm shadow-lg"
-              />
-            </div>
+    <div className="w-full max-w-[800px] h-[600px] mx-auto">
+  <video
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="w-full h-full object-cover rounded-sm shadow-lg"
+  >
+    <source src="https://res.cloudinary.com/djnxchhar/video/upload/v1754582471/main_xlqerg.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
           </div>
         </div>
       </section>
