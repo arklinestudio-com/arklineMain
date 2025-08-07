@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X, Phone, Mail } from 'lucide-react';
 
@@ -6,6 +6,19 @@ const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const location = useLocation();
   const navigate = useNavigate();
+
+  // Load Google Font only for this component
+  useEffect(() => {
+    const link = document.createElement('link');
+    link.href =
+      'https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&display=swap';
+    link.rel = 'stylesheet';
+    document.head.appendChild(link);
+
+    return () => {
+      document.head.removeChild(link);
+    };
+  }, []);
 
   const navigation = [
     { name: 'Home', path: '/' },
@@ -22,15 +35,18 @@ const Header: React.FC = () => {
         {/* ✅ Wrap everything inside flex */}
         <div className="flex justify-between items-center py-4">
           {/* Logo + Title */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-12">
             <img
               src="/Arkline.png"
               alt="Arkline Studio Logo"
               className="h-6 w-6 object-contain scale-[4.0]"
             />
             <h1
-              className="text-2xl not-italic text-gray-900 underline underline-offset-4 decoration-black"
-              style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' }}
+              className="text-3xl not-italic text-gray-900"
+              style={{
+                fontFamily: '"Cairo Play", sans-serif',
+              
+              }}
             >
               Arkline Studio
             </h1>
