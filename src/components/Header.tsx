@@ -19,25 +19,22 @@ const Header: React.FC = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="flex justify-between items-center py-4">
-  {/* Logo + Title Wrapper */}
-  <div className="flex items-center gap-4">
-    <img
-      src="/Arkline.png"
-      alt="Arkline Studio Logo"
-      className="h-6 w-6 object-contain scale-[4.0]"
-    />
-    <h1
-      className="text-2xl not-italic text-gray-900 underline underline-offset-4 decoration-black"
-      style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' }}
-    >
-      Arkline Studio
-    </h1>
-    {/* Optional subtitle */}
-    {/* <span className="ml-2 text-sm text-gray-600">Interior Design</span> */}
-  </div>
-</div>
-
+        {/* ✅ Wrap everything inside flex */}
+        <div className="flex justify-between items-center py-4">
+          {/* Logo + Title */}
+          <div className="flex items-center gap-4">
+            <img
+              src="/Arkline.png"
+              alt="Arkline Studio Logo"
+              className="h-6 w-6 object-contain scale-[4.0]"
+            />
+            <h1
+              className="text-2xl not-italic text-gray-900 underline underline-offset-4 decoration-black"
+              style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' }}
+            >
+              Arkline Studio
+            </h1>
+          </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
@@ -58,11 +55,17 @@ const Header: React.FC = () => {
 
           {/* Contact Info */}
           <div className="hidden lg:flex items-center space-x-4">
-            <a href="tel:+91 87588 64911" className="flex items-center text-sm text-gray-600 hover:text-amber-600">
+            <a
+              href="tel:+91 87588 64911"
+              className="flex items-center text-sm text-gray-600 hover:text-amber-600"
+            >
               <Phone className="h-4 w-4 mr-1" />
               +91 87588 64911
             </a>
-            <a href="mailto:arklinestudio9@gmail.com" className="flex items-center text-sm text-gray-600 hover:text-amber-600">
+            <a
+              href="mailto:arklinestudio9@gmail.com"
+              className="flex items-center text-sm text-gray-600 hover:text-amber-600"
+            >
               <Mail className="h-4 w-4 mr-1" />
               arklinestudio9@gmail.com
             </a>
