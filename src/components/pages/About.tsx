@@ -39,7 +39,7 @@ const About: React.FC = () => {
     playsInline
     className="w-full h-full object-cover rounded-sm shadow-lg"
   >
-    <source src="https://res.cloudinary.com/djnxchhar/video/upload/v1754584125/finally_kfrhl7.mp4" />
+    <source src="https://res.cloudinary.com/djnxchhar/video/upload/v1754586524/Final_ilsxlj.mp4 />
     Your browser does not support the video tag.
   </video>
 </div>
