@@ -19,22 +19,25 @@ const Header: React.FC = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
-          {/* Logo */}
-      <img
-          src="/Arkline.png"
-          alt="Arkline Studio Logo"
-          className="h-6 w-6 object-contain scale-[4.0]"
-/>
-          <div className="flex items-center">
- <h1
-  className="text-2xl not-italic text-gray-900 underline underline-offset-4 decoration-black"
-  style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' }}
->
-  Arkline Studio
-</h1>
-            {/* <span className="ml-2 text-sm text-gray-600">Interior Design</span> */}
-          </div>
+      <div className="flex justify-between items-center py-4">
+  {/* Logo + Title Wrapper */}
+  <div className="flex items-center gap-4">
+    <img
+      src="/Arkline.png"
+      alt="Arkline Studio Logo"
+      className="h-6 w-6 object-contain scale-[4.0]"
+    />
+    <h1
+      className="text-2xl not-italic text-gray-900 underline underline-offset-4 decoration-black"
+      style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' }}
+    >
+      Arkline Studio
+    </h1>
+    {/* Optional subtitle */}
+    {/* <span className="ml-2 text-sm text-gray-600">Interior Design</span> */}
+  </div>
+</div>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
