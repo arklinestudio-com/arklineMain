@@ -22,7 +22,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
       <img
-          src="/Logo.svg"
+          src="/Arkline.png"
           alt="Arkline Studio Logo"
           className="h-8 w-8 object-contain scale-[4.0]"
 />
