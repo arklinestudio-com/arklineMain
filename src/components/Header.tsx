@@ -24,7 +24,7 @@ const Header: React.FC = () => {
       <img
           src="/Arkline.png"
           alt="Arkline Studio Logo"
-          className="h-8 w-8 object-contain scale-[4.0]"
+          className="h-6 w-6 object-contain scale-[4.0]"
 />
           <div className="flex items-center">
  <h1
